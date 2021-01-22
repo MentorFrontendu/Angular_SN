@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Client-side logic for Angular App.</description>
+        <global>false</global>
+        <name>x_567533_angular_a.angular_app_client_lo</name>
+        <script><![CDATA[var aa = angular.module('aa',[]);
+aa.controller('ac',function($scope){
+	$scope.myVar = "";
+	$scope.i = 0;
+	
+	$scope.clearTxt = function(){
+		$scope.myVar="";
+		$scope.i++;
+		alert("the value has been cleaned "+ $scope.i +" times by" + g_user.userName + "." );
+	};
+// 	angularapp
+});]]></script>
+        <script_name>angular_app_client_logic</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-22 06:31:38</sys_created_on>
+        <sys_id>b549bdee2ff920101d3a802df699b6a9</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>x_567533_angular_a.angular_app_client_lo</sys_name>
+        <sys_package display_value="Angular App" source="x_567533_angular_a">1c71b9aa2ff920101d3a802df699b6ce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Angular App">1c71b9aa2ff920101d3a802df699b6ce</sys_scope>
+        <sys_update_name>sys_ui_script_b549bdee2ff920101d3a802df699b6a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-22 07:05:29</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>
